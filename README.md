@@ -3,6 +3,8 @@
   How to install Arch Linux on a Macbook Pro M2
 </p>
 
+[![Arch Linux](https://i.gyazo.com/a741427b8452da194e6840ae613f4173.png)](https://gyazo.com/a741427b8452da194e6840ae613f4173)
+
 ## Pre-requisites
 
 - [VMware Fusion Pro](https://blogs.vmware.com/teamfusion/2024/05/fusion-pro-now-available-free-for-personal-use.html)
