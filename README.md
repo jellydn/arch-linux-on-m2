@@ -58,6 +58,7 @@ reboot
 ## Resources
 
 - [How to Install GNOME in Arch Linux](https://phoenixnap.com/kb/arch-linux-gnome)
+- [The Ultimate Guide to i3 Customization in Linux](https://itsfoss.com/i3-customization/)
 - [mitchellh/nixos-config: My NixOS configurations.](https://github.com/mitchellh/nixos-config)
 - [daimaou92/install-arch-vmwarefusion-techpreview](https://github.com/daimaou92/install-arch-vmwarefusion-techpreview)
 - [Installing Arch Linux is EASY [ A Tutorial ] -- Linux for Newbs EP 1](https://www.youtube.com/watch?v=8YE1LlTxfMQ)
