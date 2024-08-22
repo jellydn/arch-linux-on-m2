@@ -55,6 +55,12 @@ sh build.sh
 reboot
 ```
 
+## Enable key repeat
+
+```sh
+xset r rate 200 30
+```
+
 ## Resources
 
 - [How to Install GNOME in Arch Linux](https://phoenixnap.com/kb/arch-linux-gnome)
