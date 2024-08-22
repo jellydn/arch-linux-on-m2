@@ -12,12 +12,52 @@
 
 ## Usage
 
+After install with archboot iso, you will need to install the following packages:
+
 ```sh
-TBD
+sudo pacman -Syu
+```
+
+Then, you will need to install the gnome desktop environment:
+
+```sh
+sudo pacman -S gnome
+```
+
+After that, you will need to install gdm:
+
+```sh
+sudo pacman -S gdm
+```
+
+Then, you will need to enable gdm:
+
+```sh
+sudo systemctl enable gdm.service
+```
+
+Finally, you will need to reboot:
+
+```sh
+sudo reboot
+```
+
+## Install VMware Tools
+
+```sh
+sudo pacman -S base-devel
+```
+
+```sh
+git clone https://github.com/daimaou92/install-arch-vmwarefusion-techpreview.git
+cd after/openvmtools
+sh build.sh
+reboot
 ```
 
 ## Resources
 
+- [How to Install GNOME in Arch Linux](https://phoenixnap.com/kb/arch-linux-gnome)
 - [mitchellh/nixos-config: My NixOS configurations.](https://github.com/mitchellh/nixos-config)
 - [daimaou92/install-arch-vmwarefusion-techpreview](https://github.com/daimaou92/install-arch-vmwarefusion-techpreview)
 - [Installing Arch Linux is EASY [ A Tutorial ] -- Linux for Newbs EP 1](https://www.youtube.com/watch?v=8YE1LlTxfMQ)
@@ -25,4 +65,3 @@ TBD
 ## Show your support
 
 Give a ⭐️ if this project helped you!
-
