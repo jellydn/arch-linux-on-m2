@@ -81,13 +81,27 @@ This script will:
 - Install kitty terminal emulator
 - Install the GNOME desktop environment
 - Install and enable GDM
-- Reboot the system
+
+Verify that the GNOME desktop environment is installed correctly before rebooting the system:
+
+```sh
+sudo systemctl status gdm.service
+```
 
 ### Step 3: Install VMware Tools
+
+If you share the folder between the host and the guest, you need to install VMware Tools. You would see the following warning message:
+
+```
+Shared folders will not be available in the virtual machine until VMware Tools is installed and running.
+```
+
+[![Image from Gyazo](https://i.gyazo.com/73f69ac3da68a54e9fc594f3440af631.gif)](https://gyazo.com/73f69ac3da68a54e9fc594f3440af631)
 
 Run the `openvm-tools.sh` script to install VMware Tools:
 
 ```sh
+cd arch-linux-on-m2
 sh openvm-tools.sh
 ```
 
@@ -97,6 +111,21 @@ This script will:
 - Clone the VMware Tools repository
 - Build and install VMware Tools
 - Reboot the system
+
+Verify that VMware Tools is installed correctly:
+
+```sh
+ls -l /mnt/hgfs
+```
+
+## Extra packages
+
+This is optional but you can run the `extra.sh` script to install some extra packages:
+
+```sh
+cd arch-linux-on-m2
+sh extra.sh
+```
 
 ## Enable key repeat
 
@@ -110,6 +139,7 @@ xset r rate 200 30
 
 - [How to Install GNOME in Arch Linux](https://phoenixnap.com/kb/arch-linux-gnome)
 - [The Ultimate Guide to i3 Customization in Linux](https://itsfoss.com/i3-customization/)
+- [10 Things To Do After Installing Arch Linux 2023 ‣ KSKRoyal](https://kskroyal.com/10-things-to-do-after-installing-arch-linux-2023/)
 - [mitchellh/nixos-config: My NixOS configurations.](https://github.com/mitchellh/nixos-config)
 - [daimaou92/install-arch-vmwarefusion-techpreview](https://github.com/daimaou92/install-arch-vmwarefusion-techpreview)
 - [Installing Arch Linux is EASY [ A Tutorial ] -- Linux for Newbs EP 1](https://www.youtube.com/watch?v=8YE1LlTxfMQ)
