@@ -11,7 +11,7 @@ sudo pacman -Sy kitty --noconfirm
 # Install GNOME desktop environment
 echo "Installing GNOME desktop environment..."
 sudo pacman -Sy xorg xorg-xinit --noconfirm
-sudo pacman -Sy gnome --noconfirm
+sudo pacman -Sy gnome
 
 # Install GDM
 echo "Installing GDM..."

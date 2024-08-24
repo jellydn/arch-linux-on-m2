@@ -11,7 +11,7 @@ cd ..
 
 # Install Nerdfonts
 echo "Installing Nerdfonts..."
-yay -S getnf
+yay -S getnf --noconfirm
 
 # Install Mise
 echo "Installing Mise..."
@@ -19,27 +19,27 @@ curl https://mise.run | sh
 
 # Install Fzf, Ripgrep, and Bat
 echo "Installing Fzf, Ripgrep, and Bat..."
-yay -S fd fzf ripgrep bat neofetch jq xclip
+yay -S fd fzf ripgrep bat neofetch jq xclip --noconfirm
 
 # Install Git
 echo "Installing Git..."
-yay -S git-delta lazygit
+yay -S git-delta lazygit --noconfirm
 
 # Install Tmux
 echo "Installing Tmux..."
-yay -S tmux
+yay -S tmux --noconfirm
 
 # Install Fish shell
 echo "Installing Fish shell..."
-yay -S fish
+yay -S fish --noconfirm
 
 # Install Firefox
 echo "Installing Firefox..."
-yay -S firefox
+yay -S firefox --noconfirm
 
 # Install i3
 echo "Installing i3..."
-yay -S i3-wm i3blocks i3lock i3status polybar dmenu rofi feh lxappearance
+sudo pacman -Sy xorg xorg-xinit i3-gaps i3lock i3status i3blocks dmenu dex xss-lock rofi polybar feh lxappearance
 
 # Install rofi theme
 git clone --depth=1 https://github.com/adi1090x/rofi.git
@@ -48,6 +48,4 @@ sh setup.sh
 cd ..
 rm -rf rofi
 
-# Reboot
-echo "Rebooting the system..."
-sudo reboot
+echo "Installation complete. Please reboot the system to apply the changes."
