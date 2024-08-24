@@ -19,11 +19,11 @@ curl https://mise.run | sh
 
 # Install Fzf, Ripgrep, and Bat
 echo "Installing Fzf, Ripgrep, and Bat..."
-yay -S fd fzf ripgrep bat neofetch jq xclip --noconfirm
+yay -S fd fzf ripgrep bat neofetch jq xclip zoxide --noconfirm
 
 # Install Git
 echo "Installing Git..."
-yay -S git-delta lazygit --noconfirm
+yay -S github-cli git-delta lazygit --noconfirm
 
 # Install Tmux
 echo "Installing Tmux..."
