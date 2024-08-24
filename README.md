@@ -12,54 +12,49 @@
 
 ## Usage
 
-After install with archboot iso, you will need to install the following packages:
+### Step 1: Install Arch Linux
+
+Follow the instructions to install Arch Linux using the archboot ISO.
+
+### Step 2: Run the Installation Script
+
+After installing Arch Linux, run the `install.sh` script to set up the GNOME desktop environment and GDM:
 
 ```sh
-sudo pacman -Syu
+sh install.sh
 ```
 
-Then, you will need to install the gnome desktop environment:
+This script will:
+
+- Update the system packages
+- Install the GNOME desktop environment
+- Install and enable GDM
+- Reboot the system
+
+### Step 3: Install VMware Tools
+
+Run the `openvm-tools.sh` script to install VMware Tools:
 
 ```sh
-sudo pacman -S gnome
+sh openvm-tools.sh
 ```
 
-After that, you will need to install gdm:
+This script will:
 
-```sh
-sudo pacman -S gdm
-```
+- Install base-devel package
+- Clone the VMware Tools repository
+- Build and install VMware Tools
+- Reboot the system
 
-Then, you will need to enable gdm:
-
-```sh
-sudo systemctl enable gdm.service
-```
-
-Finally, you will need to reboot:
-
-```sh
-sudo reboot
-```
-
-## Install VMware Tools
-
-```sh
-sudo pacman -S base-devel
-```
-
-```sh
-git clone https://github.com/daimaou92/install-arch-vmwarefusion-techpreview.git
-cd after/openvmtools
-sh build.sh
-reboot
-```
+````
 
 ## Enable key repeat
 
+To enable key repeat, run the following command:
+
 ```sh
 xset r rate 200 30
-```
+````
 
 ## Resources
 
