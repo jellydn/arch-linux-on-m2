@@ -6,20 +6,20 @@ sudo pacman -Syu --noconfirm
 
 # Install kitty
 echo "Installing kitty..."
-sudo pacman -S kitty --noconfirm
+sudo pacman -Sy kitty --noconfirm
 
 # Install GNOME desktop environment
 echo "Installing GNOME desktop environment..."
-sudo pacman -S xorg xorg-xinit gnome
+sudo pacman -Sy xorg xorg-xinit --noconfirm
+sudo pacman -Sy gnome --noconfirm
 
 # Install GDM
 echo "Installing GDM..."
-sudo pacman -S gdm
+sudo pacman -Sy gdm --noconfirm
 
 # Enable GDM
 echo "Enabling GDM..."
 sudo systemctl enable gdm.service
 
-# Reboot
-echo "Rebooting the system..."
-sudo reboot
+# Print the installation status
+echo "Installation complete. Please reboot the system to apply the changes."
