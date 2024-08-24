@@ -88,6 +88,15 @@ Verify that the GNOME desktop environment is installed correctly before rebootin
 sudo systemctl status gdm.service
 ```
 
+Reboot the system:
+
+```sh
+reboot
+```
+
+You should see the GNOME login screen after rebooting the system:
+[![Gnome](https://i.gyazo.com/7699f359a05472a7ff3db8fa92d088aImage from Gyazo4.gif)](https://gyazo.com/7699f359a05472a7ff3db8fa92d088a4)
+
 ### Step 3: Install VMware Tools
 
 If you share the folder between the host and the guest, you need to install VMware Tools. You would see the following warning message:
@@ -104,6 +113,8 @@ Run the `openvm-tools.sh` script to install VMware Tools:
 cd arch-linux-on-m2
 sh openvm-tools.sh
 ```
+
+[![Install OpenVM Tools](https://i.gyazo.com/d6f184300cae564038ddb1f4043f2a14.gif)](https://gyazo.com/d6f184300cae564038ddb1f4043f2a14)
 
 This script will:
 
