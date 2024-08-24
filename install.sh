@@ -10,11 +10,11 @@ sudo pacman -S kitty --noconfirm
 
 # Install GNOME desktop environment
 echo "Installing GNOME desktop environment..."
-sudo pacman -S xorg xorg-xinit gnome --noconfirm
+sudo pacman -S xorg xorg-xinit gnome
 
 # Install GDM
 echo "Installing GDM..."
-sudo pacman -S gdm --noconfirm
+sudo pacman -S gdm
 
 # Enable GDM
 echo "Enabling GDM..."
