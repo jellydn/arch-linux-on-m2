@@ -146,6 +146,17 @@ To enable key repeat, run the following command:
 xset r rate 200 30
 ```
 
+## Fish shell plugins
+
+```sh
+# Install fisher
+curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
+# Git alias
+fisher install jhillyerd/plugin-git
+# Pure
+fisher install pure-fish/pure
+```
+
 ## Resources
 
 - [How to Install GNOME in Arch Linux](https://phoenixnap.com/kb/arch-linux-gnome)
