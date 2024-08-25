@@ -3,7 +3,9 @@
   How to install Arch Linux on a Macbook Pro M2
 </p>
 
+[![How to Install Arch Linux on MacBook Pro M2](https://i.ytimg.com/vi/Nz-gKG6Bzlw/hqdefault.jpg)](https://www.youtube.com/watch?v=Nz-gKG6Bzlw)
 [![Arch Linux](https://i.gyazo.com/a741427b8452da194e6840ae613f4173.png)](https://gyazo.com/a741427b8452da194e6840ae613f4173)
+
 
 ## Pre-requisites
 
