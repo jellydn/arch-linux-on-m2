@@ -15,7 +15,7 @@ sudo pacman -Sy gnome
 
 # Install GDM
 echo "Installing GDM..."
-sudo pacman -Sy gdm --noconfirm
+sudo pacman -Sy gdm
 
 # Enable GDM
 echo "Enabling GDM..."
