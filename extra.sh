@@ -19,7 +19,7 @@ curl https://mise.run | sh
 
 # Install Fzf, Ripgrep, and Bat
 echo "Installing Fzf, Ripgrep, and Bat..."
-yay -S fd fzf ripgrep bat neofetch jq xclip zoxide --noconfirm
+yay -S fd fzf ripgrep bat neofetch jq xclip gpaste zoxide --noconfirm
 
 # Install Git
 echo "Installing Git..."
