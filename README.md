@@ -121,7 +121,7 @@ fisher install pure-fish/pure
 - [mitchellh/nixos-config: My NixOS configurations.](https://github.com/mitchellh/nixos-config)
 - [daimaou92/install-arch-vmwarefusion-techpreview](https://github.com/daimaou92/install-arch-vmwarefusion-techpreview)
 - [Installing Arch Linux is EASY [ A Tutorial ] -- Linux for Newbs EP 1](https://www.youtube.com/watch?v=8YE1LlTxfMQ)
-
+- [Omarchy on VM](https://github.com/jondkinney/armarchy/blob/vm-testing/full_install_guide.md)
 ## Show your support
 
 Give a ⭐️ if this project helped you!
